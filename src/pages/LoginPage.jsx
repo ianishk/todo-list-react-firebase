@@ -61,8 +61,8 @@ const Loginpage = () => {
   return (
     <div>
       <div className="loginpage">
-        <h1>Login to your account.</h1>
-        <Button style={{margin: '1rem !important'}}
+        <h1 style={{marginBottom: '1rem'}}>Login to your account.</h1>
+        <Button 
           variant="contained"
           color="primary"
           className="formBtn"
@@ -70,7 +70,7 @@ const Loginpage = () => {
         >
           Sign in using google
         </Button>
-        <h3>OR</h3>
+        <h3 style={{marginTop: '1rem'}}>OR</h3>
         <h3>{error}</h3>
         <form action="">
           <TextField
@@ -107,7 +107,7 @@ const Loginpage = () => {
           />
           <br />
           <Button
-            style={{margin: '1rem !important'}}
+            
             variant="contained"
             color="primary"
             className="formBtn"
@@ -115,7 +115,7 @@ const Loginpage = () => {
           >
             Login
           </Button>
-          <p>
+          <p style={{marginTop: '1rem'}}>
             Don't have an account? <Link to="/signup">Create one</Link>{" "}
           </p>
         </form>
