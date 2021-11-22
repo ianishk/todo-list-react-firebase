@@ -5,7 +5,7 @@ const Homepage = () => {
   const navigate = useNavigate();
   return (
     <div className='mhomePage'>
-      <h1>Welcome to todo-list application</h1>
+      <h1>Welcome to todo-list application!</h1>
       <div className='homePage'>
         <div>
           <h2>Login</h2>

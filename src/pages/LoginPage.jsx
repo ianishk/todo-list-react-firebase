@@ -62,7 +62,7 @@ const Loginpage = () => {
     <div>
       <div className="loginpage">
         <h1>Login to your account.</h1>
-        <Button
+        <Button style={{margin: '1rem !important'}}
           variant="contained"
           color="primary"
           className="formBtn"
@@ -107,6 +107,7 @@ const Loginpage = () => {
           />
           <br />
           <Button
+            style={{margin: '1rem !important'}}
             variant="contained"
             color="primary"
             className="formBtn"
