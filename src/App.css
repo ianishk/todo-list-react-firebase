@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin: 0;
+    padding: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* --------------------Navbar--------------------- */
+  .navbar{
+    padding: 1rem;
+    background-color: #1874D0;
+    color: white;
+    text-align: center;
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .navSec1{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
   }
-}
+  
+  .navSec2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navSec3{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .navSec3 p{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 0.1rem;
+    margin-right: 1rem;
+  }
+  
+  /* ---------------------Homepage----------------------- */
+  
+  .homepage_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeBtn{
+    text-align: center !important;
+    width: 30% !important;
+    min-width: 400px !important;
+    color: white !important;
+    padding: 1.5rem !important;
+    margin: 2rem !important;
+    flex-direction: column;
+  }
+  
+  .homepage_center div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+  }
+  
+  .homepage_center h1{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  /* --------------------Loginpage------------------------- */
+  
+  .loginpage{
+    padding: 2rem;
+    text-align: center;
+    width: 30%;
+    min-width: 400px;
+    margin: auto;
+    margin-top: 1rem;
+    border: 2px solid #1874D0;
+  }
+  
+  .loginpage h3{
+    margin-bottom: 1.5rem;
+  }
+  
+  .formBtn{
+    margin: 1.5rem !important;
+    margin-top: 1.75 !important;
+  }
+  
+  .notes-body{
+    padding: 1rem 10rem;
+  }
+  
+  .notes-body h2{
+    text-align: center;
+  }
+  
+  .notes-body h3{
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .showAddNote{
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  .notesInp{
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    /* margin-left: 2rem !important; */
+    width: 35% !important;
+  }
+  
+  .nshowAddNote{
+    display: none;
+  }
+  
+  .checkedBox{
+    padding: 1rem;
+    background-color: #d0e7ff;
+    /* color: #1874D0; */
+    border: 2px solid #1874D0;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+  }
+
+  .uncheckedBox{
+    padding: 1rem;
+    /* background-color: #d0e7ff; */
+    /* color: #1874D0; */
+    border: 2px solid #1874D0;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .checkedBox p{
+    text-decoration: line-through;
+    text-align: start !important;
+    margin-bottom: 0.2rem;
+  }
+
+  .uncheckedBox p{
+    text-align: start !important;
+    margin-bottom: 0.2rem;
+  }
+  
+  .addNoteBtn{
+  
+    margin-right: 2rem !important;
+    margin-bottom: 0.8rem !important;
+  
+  }
+
+  .homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .homePage div{
+    width: 22vw;
+    padding: 1.5rem;
+    border: 1px solid #1874D0;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  .homePage p{
+    margin: 1rem;
+  }
+
+  .mhomePage{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mhomePage h1{
+    margin-bottom: 2rem;
+  }
+
+  .taskBar{
+    display: flex;
+  }
+  .taskBar div{
+    width: 90%;
+    align-items: center;
+  }
+  .taskBar button{
+    margin: 1rem !important;
+    padding: 1rem;
+  }
+  
+  .task-body{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 2rem; */
+  }
+
+  .task-body h2{
+    margin: 1rem;
+  }
