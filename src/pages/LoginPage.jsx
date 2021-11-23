@@ -105,7 +105,8 @@ const Loginpage = () => {
             }}
             label="Password"
           />
-          <br style={{marginBottom: '1rem'}} />
+          <br />
+          <br />
           <Button
             
             variant="contained"

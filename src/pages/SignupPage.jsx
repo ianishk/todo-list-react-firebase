@@ -107,7 +107,8 @@ const SignupPage = () => {
             }}
             label="Password"
           />
-          <br style={{marginBottom: '1rem'}}/>
+          <br />
+          <br />
           <Button variant="contained" color="primary" className="formBtn" onClick={signupHandler}>
             Signup
           </Button>
